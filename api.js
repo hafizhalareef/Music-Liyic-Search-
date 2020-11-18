@@ -25,7 +25,7 @@ const data  = [
   Kau menyimpan rasa, kau menyimpan rasa cinta
   Nyatakan padaku, nyatakan padaku
   Perasaan itu, perasaan itu cinta
-  Dengarkan curhatku
+  Dengarkan curhatkuu
   Tentang dirinya`,
     },
     {
