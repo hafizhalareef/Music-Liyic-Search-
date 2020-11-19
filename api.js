@@ -1,15 +1,50 @@
-const data  = [
-    {
-      Judul: `Bersamamu`,
-      Artis: `Vierratale`,
-      Album: `My First Love`,
-      Lirik: `Memandang wajahmu cerah Membuatku tersenyum senang Indah dunia Tentu saja kita pernah Mengalami perbedaan Kita lalui Tapi aku merasa Jatuh terlalu dalam cintamu Ku tak akan berubah Ku tak ingin kau pergi Selamanya... Ku kan setia menjagamu Bersama dirimu, dirimu, oh Sampai nanti akan selalu Bersama dirimu... Saat bersamamu kasih Ku merasa bahagia Dalam pelukmu Tapi aku merasa jatuh terlalu dalam cintamu Ku tak akan berubah Ku tak ingin kau pergi Selamanya oohh... Ku kan setia menjagamu Bersama dirimu, dirimu oh... Sampai nanti akan selalu Bersama dirimu Seperti yang kau katakan Kau akan selalu ada Menjaga, memeluk diriku dengan cintamu Dengan cintamu... Ku kan setia menjagamu Bersama dirimu, dirimu oh Sampai nanti Akan selalu Bersama dirimu... Saat bersamamu kasih ku merasa bahagia Dalam pelukmu...`,
-    },
-    {
-      Judul: `Dengarkan Curhatku`,
-      Artis: `Vierratale`,
-      Album: `My First Love`,
-      Lirik: `Dengarkan curhatku Tentang dirinya Betapa anehnya Tingkah lakunya Jujurlah padaku, jujurlah padaku Kau menyimpan rasa, kau menyimpan rasa cinta
+const data = [
+  {
+    Judul: `Bersamamu`,
+    Artis: `Vierratale`,
+    Album: `My First Love`,
+    Lirik: `Memandang wajahmu cerah
+      Membuatku tersenyum senang 
+      Indah dunia 
+      Tentu saja kita pernah 
+      Mengalami perbedaan 
+      Kita lalui 
+      Tapi aku merasa 
+      Jatuh terlalu dalam cintamu 
+      Ku tak akan berubah 
+      Ku tak ingin kau pergi 
+      Selamanya... 
+      Ku kan setia menjagamu 
+      Bersama dirimu, dirimu, oh 
+      Sampai nanti akan selalu 
+      Bersama dirimu... 
+      Saat bersamamu kasih 
+      Ku merasa bahagia 
+      Dalam pelukmu 
+      Tapi aku merasa jatuh terlalu dalam cintamu 
+      Ku tak akan berubah 
+      Ku tak ingin kau pergi 
+      Selamanya oohh... 
+      Ku kan setia menjagamu 
+      Bersama dirimu, dirimu oh... 
+      Sampai nanti akan selalu 
+      Bersama dirimu 
+      Seperti yang kau katakan 
+      Kau akan selalu ada 
+      Menjaga, memeluk diriku dengan cintamu 
+      Dengan cintamu... 
+      Ku kan setia menjagamu 
+      Bersama dirimu, dirimu oh 
+      Sampai nanti 
+      Akan selalu 
+      Bersama dirimu... 
+      Saat bersamamu kasih ku merasa bahagia Dalam pelukmu...`,
+  },
+  {
+    Judul: `Dengarkan Curhatku`,
+    Artis: `Vierratale`,
+    Album: `My First Love`,
+    Lirik: `Dengarkan curhatku Tentang dirinya Betapa anehnya Tingkah lakunya Jujurlah padaku, jujurlah padaku Kau menyimpan rasa, kau menyimpan rasa cinta
   Nyatakan padaku, nyatakan padaku
   Perasaan itu, perasaan itu cinta
   Dengarkan curhatku
@@ -25,14 +60,14 @@ const data  = [
   Kau menyimpan rasa, kau menyimpan rasa cinta
   Nyatakan padaku, nyatakan padaku
   Perasaan itu, perasaan itu cinta
-  Dengarkan curhatkuu
+  Dengarkan curhatku
   Tentang dirinya`,
-    },
-    {
-      Judul: `Menjaga Hati`,
-      Artis: `Yovie & Nuno`,
-      Album: `The Special One`,
-      Lirik: `Masih tertinggal bayanganmu
+  },
+  {
+    Judul: `Menjaga Hati`,
+    Artis: `Yovie & Nuno`,
+    Album: `The Special One`,
+    Lirik: `Masih tertinggal bayanganmu
               Yang telah membekas di relung hatiku
               Hujan tanpa henti seolah pertanda
   Cinta tak di sini lagi, kau telah berpaling
@@ -61,12 +96,12 @@ const data  = [
   Kau menjauh, aku takkan jauh
   Sebenarnya diriku masih mengharapkanmu
   Sejujurnya diriku masih mengharapkanmu`,
-    },
-    {
-      Judul: `Dia Milikku`,
-      Artis: `Yovie & Nuno`,
-      Album: `The Special One`,
-      Lirik: `Semula ku tak tahu
+  },
+  {
+    Judul: `Dia Milikku`,
+    Artis: `Yovie & Nuno`,
+    Album: `The Special One`,
+    Lirik: `Semula ku tak tahu
   Engkau juga kan ingin memilikinya
   Bukankah ku lebih dulu
   Bila engkau temanku
@@ -117,12 +152,12 @@ const data  = [
   Jangan kau ganggu
   Biarkan aku
   Mendekatinya`,
-    },
-    {
-      Judul: `Red`,
-      Artis: `Taylor Swift`,
-      Album: `Red`,
-      Lirik: `Loving him is like
+  },
+  {
+    Judul: `Red`,
+    Artis: `Taylor Swift`,
+    Album: `Red`,
+    Lirik: `Loving him is like<br>
   Driving a new Maserati down a dead-end street<br>
   Faster than the wind<br>
   Passionate as sin<br>
@@ -173,12 +208,12 @@ const data  = [
   Yeah, yeah (re-e-e-ed, re-e-e-ed)<br>
   His love was like<br>
   Driving a new Maserati down a dead-end street`,
-    },
-    {
-      Judul: `Love Story`,
-      Artis: `Taylor Swift`,
-      Album: `Fearless`,
-      Lirik: `We were both young when I first saw you
+  },
+  {
+    Judul: `Love Story`,
+    Artis: `Taylor Swift`,
+    Album: `Fearless`,
+    Lirik: `We were both young when I first saw you
   I close my eyes and the flashback starts
   I'm standin' there
   On a balcony in summer air
@@ -227,12 +262,12 @@ const data  = [
   Oh, oh, oh
   Oh, oh, oh, oh
   'Cause we were both young when I first saw you`,
-    },
-    {
-      Judul: `White Horse`,
-      Artis: `Taylor Swift`,
-      Album: `Fearless`,
-      Lirik: `Say you're sorry That face of an angel
+  },
+  {
+    Judul: `White Horse`,
+    Artis: `Taylor Swift`,
+    Album: `Fearless`,
+    Lirik: `Say you're sorry That face of an angel
   Comes out just when you need it to
   As I paced back and forth all this time
   'Cause I honestly believed in you
@@ -276,12 +311,12 @@ const data  = [
   Try and catch me now
   Oh, it's too late
   To catch me now`,
-    },
-    {
-      Judul: `Someone Like You`,
-      Artis: `Adele`,
-      Album: `21`,
-      Lirik: `I heard that you're settled down
+  },
+  {
+    Judul: `Someone Like You`,
+    Artis: `Adele`,
+    Album: `21`,
+    Lirik: `I heard that you're settled down
       That you found a girl and you're married now
   I heard that your dreams came true
   Guess she gave you things, I didn't give to you
@@ -324,6 +359,319 @@ const data  = [
   I remember you said
   Sometimes it lasts in love, but sometimes it hurts instead
   Sometimes it lasts in love, but sometimes it hurts instead`,
-    },
-  ];
-  
+  },
+  {
+    Judul: `Pasti Bisa`,
+    Artis: `Citra Scholastika`,
+    Album: `-`,
+    Lirik: `Mentari terbenam temani dalam kesendirianku<br>
+     temani aku dalam kepedihan ini<br>
+     ku bertahan<br>
+     mentari terbenam beri semangat baru tuk jiwaku<br>
+     beri kicauan merdu tuk hidupku ini<br>
+     ku bertahan<br>
+     aku pasti bisa<br>
+     menikmati semua dan menghadapinya<br>
+     aku yakin pasti bisa<br>
+     mentari terbenam beri semangat baru tuk jiwaku<br>
+     beri kicauan merdu tuk hidupku ini<br>
+     ku bertahan<br>
+     aku pasti bisa<br>
+     menikmati semua dan menghadapinya<br>
+     aku yakin pasti bisa<br>
+     aku pasti bisa<br>
+     menikmati semua dan menghadapinya<br>
+     aku yakin pasti bisa<br>
+     aku ingin lepaskan seluruh bebanku<br>
+     dan ku jalani hidupku dengan senyuman<br>
+     aku pasti bisa<br>
+     menikmati semua dan menghadapinya<br>
+     aku yakin pasti bisa<br>
+     dan ku jalani hidupku dengan senyuman<br>`,
+  },
+  {
+    Judul: `Bertaut`,
+    Artis: `Nadin Amizah`,
+    Album: `-`,
+    Lirik: `Bun, hidup berjalan seperti bajingan<br>
+     Seperti landak yang tak punya teman<br>
+     Ia menggonggong bak suara hujan<br>
+     Dan kau pangeranku, mengambil peran<br>
+     Bun, kalau saat hancur ku disayang<br>
+     Apalagi saat ku jadi juara<br>
+     Saat tak tahu arah kau di sana<br>
+     Menjadi gagah saat ku tak bisa<br>
+     Sedikit ku jelaskan tentangku dan kamu<br>
+     Agar seisi dunia tahu<br>
+     Keras kepalaku sama denganmu<br>
+     Caraku marah, caraku tersenyum<br>
+     Seperti detak jantung yang bertaut<br>
+     Nyawaku nyala karena denganmu<br>
+     Aku masih ada sampai di sini<br>
+     Melihatmu kuat setengah mati<br>
+     Seperti detak jantung yang bertaut<br>
+     Nyawaku nyala karena denganmu<br>
+     Bun, aku masih tak mengerti banyak hal<br>
+     Semuanya berenang di kepala<br>
+     Dan kau dan semua yang kau tahu tentangnya<br>
+     Menjadi jawab saat ku bertanya<br>
+     Sedikit ku jelaskan tentangku dan kamu<br>
+     Agar seisi dunia tahu<br>
+     Keras kepalaku sama denganmu<br>
+     Caraku marah, caraku tersenyum<br>
+     Seperti detak jantung yang bertaut<br>
+     Nyawaku nyala karena denganmu<br>
+     Aku masih ada sampai di sini<br>
+     Melihatmu kuat setengah mati<br>
+     Seperti detak jantung yang bertaut<br>
+     Nyawaku nyala karena denganmu<br>
+     Semoga lama hidupmu di sini<br>
+     Melihatku berjuang sampai akhir<br>
+     Seperti detak jantung yang bertaut<br>
+     Nyawaku nyala karena denganmu<br>`,
+  },
+  {
+    Judul: `Senyum`,
+    Artis: `Raihan`,
+    Album: `Senyum`,
+    Lirik: `Manis wajahmu kulihat di sana<br>
+     Apa rahasia yang tersirat<br>
+     Tapi zahirnya dapat kulihat<br>
+     Mesra wajahmu dengan senyuman<br>
+     Senyuman...Senyuman... <br>
+     Senyum tanda mesra senyum tanda sayang<br>
+     Senyumlah sedekah yang paling mudah<br>
+     Senyum di waktu susah tanda ketabahan<br>
+     Senyuman itu tanda keimanan<br>
+     Senyuman...Senyuman... <br>
+     Senyuman...Senyuman... <br>
+     Hati yang gundah terasa senang<br>
+     Bila melihat senyum hati kan tenang<br>
+     Tapi senyumlah seikhlas hati<br>
+     Senyuman dari hati jatuh ke hati<br>
+     Senyumlah...Senyumlah... <br>
+     Senyumlah seperti Rasulullah<br>
+     Senyumnya bersinar dengan cahaya<br>
+     Senyumlah kita hanya kerana Allah<br>
+     Itulah senyuman bersedekah<br>
+     Senyuman...Senyuman... <br>
+     Senyuman...Senyuman... <br>
+     Itulah sedekah paling mudah<br>
+     Tiada terasa terhutang budi<br>
+     Ikat persahabatan antara kita<br>
+     Tapi senyum jangan disalah guna<br>
+     Senyum... senyum... senyum... <br>
+     Senyumlah kita... <br>
+     Senyumlah... <br>
+     Senyumlah... <br>
+     Senyumlah... <br>
+     Senyumlah... <br>
+     Senyumlah penawar duka<br>
+     Senyumlah penyejuk hati<br>
+     Senyumlah... <br>`,
+  },
+  {
+    Judul: `Peristiwa Subuh`,
+    Artis: `Raihan`,
+    Album: `Puji-Pujian`,
+    Lirik: `Tabuh berbunyi gemparkan alam sunyi<br>
+     Berkumandang suara adzan<br>
+     Mendayu memecah sepi<br>
+     Selang seli sahutan ayam<br>
+     Tetapi insan kalaupun ada hanya<br>
+     Mata yang celik dipejam lagi<br>
+     Hatinya penuh benci<br>
+     Berdengkurlah kembali<br>
+     Begitulah peristiwa di Subuh hari<br>
+     Suara insan di alam mimpi<br>
+     Ayo bangunlah tunaikan perintah Allah<br>
+     Sujud mengharap keampunanNya<br>
+     Bersyukurlah, bangkitlah segera<br>
+     Moga mendapat keridhoannya<br>
+     Begitulah peristiwa di Subuh hari<br>
+     Setiap pagi, setiap hari<br>`,
+  },
+  {
+    Judul: `Bismillah`,
+    Artis: `Raihan`,
+    Album: `Senyum`,
+    Lirik: `Dimulakan dengan Bismillah<br>
+     Disudahi dengan Alhamdulillah<br>
+     Begitulah sehari dalam hidup kita<br>
+     Mudah mudahan dirahmati Allah<br>
+     Mulakanlah kerja dengan niat yang satu<br>
+     Untuk mendapat keredhaanNya<br>
+     Moga segala urusan dipermudahkanNya<br>
+     Agar sentiasa dalam kebaikan<br>
+     Barulah hati kita kan terasa tenang<br>
+     Dan bersyukur dengan apa yang ada<br>
+     Buruk dan baik itu ketentuan Allah<br>
+     Kitalah jua yang memilihnya<br>
+     Amal yang baik akan membawa ke syurga<br>
+     Amalan buruk menempah neraka<br>
+     Hanyalah iman, amal dan juga taqwa<br>
+     Menjadi bekal dalam hidup kita ( 2X ) <br>
+     Ilmu pelita menerangi kegelapan<br>
+     Darilah ilmu datangnya amalan<br>
+     Dari amalan lahirlah kasih sayang<br>
+     Saling membantu dan bekerjasama<br>
+     Rezeki yang ada dihulurkanlah derma<br>
+     Terjalin hidup harmoni bahagia ( 2X ) <br>`,
+  },
+  {
+    Judul: `Iman Mutiara`,
+    Artis: `Raihan`,
+    Album: `Puji-Pujian`,
+    Lirik: `Iman adalah mutiara<br>
+     Di dalam hati manusia<br>
+     Yang meyakini Allah<br>
+     Maha Esa, Maha Kuasa<br>
+     Tanpamu iman bagaimanalah<br>
+     Merasa diri hamba padaNya<br>
+     Tanpamu iman bagaimanalah<br>
+     Menjadi hamba Allah yang bertaqwa<br>
+     Iman tak dapat diwarisi<br>
+     Dari seorang ayah yang bertaqwa<br>
+     Ia tak dapat dijual-beli<br>
+     Ia tiada di tepian pantai<br>
+     Walau apapun caranya jua<br>
+     Engkau mendaki gunung yang tinggi<br>
+     Engkau berentas lautan api<br>
+     Namun tak dapat jua dimiliki<br>
+     Jika tidak kembali pada Allah<br>
+     Jika tidak kembali pada Allah<br>`,
+  },
+  {
+    Judul: `Selamat Pagi`,
+    Artis: `RAN`,
+    Album: `RAN Four Your Life`,
+    Lirik: `Kurasakan hangat indahnya sang mentari<br>
+     membangunkanku dari tidur yang lelap ini<br>
+     Sinarmu yang terang mulai memasuki mata<br>
+     dan mengusirku dari alam mimpi<br>
+     Dan kini kubergegas tuk segera siapkan diriku<br>
+     tuk mulai menjalani hari ini<br>
+     Tak sabar ku temui seluruh sahabat yang tersenyum<br>
+     menyambut datangnya pagi ini<br>
+     Dan kukatakan.. <br>
+     (Chorus) <br>
+     Selamat pagi!!   <br>
+     Embun membasahi dunia dan mulai mengawali hari ini<br>
+     Dan kukatakan: <br>
+     Selamat pagi!! <br>
+     Kicau burung bernyanyi dan kini ku siap tuk jalani hari ini. <br>
+     Kini bergegaslah sipakan dirimu untuk memulai menjalani hari ini<br>
+     (Chorus) <br>`,
+  },
+  {
+    Judul: `Gajah`,
+    Artis: `Tulus`,
+    Album: `Gajah`,
+    Lirik: `Setidaknya punya tujuh puluh tahun<br>
+     tak bisa melompat ku mahir berenang<br>
+     bahagia melihat kawanan betina<br>
+     berkumpul bersama sampai ajal<br>
+     besar dan berani berperang sendiri<br>
+     yang aku hindari hanya semut kecil<br>
+     otak ini cerdas ku rakit perangkat<br>
+     wajahmu tak akan pernah ku lupa<br>
+     waktu kecil dulu mereka menertawakan<br>
+     mereka panggil ku gajah (ku marah) ku marah<br>
+     kini baru ku tahu puji di dalam olokan<br>
+     mereka ingat ku marah, jabat tanganku panggil ku gajah<br>
+     kau temanku, kau doakan aku<br>
+     punya otak cerdas, aku harus tangguh<br>
+     bila jatuh gajah lain yang membantu<br>
+     tubuhmu di situasi rela jadi tamengku<br>
+     kecil kita tak tahu apa-apa<br>
+     wajar bila terlalu cepat marah<br>
+     kecil kita tak tahu apa-apa<br>
+     yang terburuk kelak bisa jadi yang terbaik<br>
+     yang terburuk kelak bisa jadi yang terbaik<br>
+     kau temanku, kau doakan aku<br>
+     punya otak cerdas, aku harus tangguh<br>
+     bila jatuh gajah lain yang membantu<br>
+     tubuhmu di situasi rela jadi tamengku<br>
+     kau temanku, kau doakan aku<br>
+     punya otak cerdas, aku harus tangguh<br>
+     bila jatuh gajahlah yang membantu<br>
+     tubuhmu di situasi rela jadi tamengku<br>`,
+  },
+  {
+    Judul: `Baru`,
+    Artis: `Tulus `,
+    Album: `Gajah`,
+    Lirik: `tak perlu kau ajak aku bicara<br>
+     tak akan pernah aku mendengarnya<br>
+     ini aku yang dulu bahkan tak dapat<br>
+     sebelah dengar dari telingamu<br>
+     tak perlu pesolek berwangi bunga<br>
+     tak akan mampu luluhkan hatiku<br>
+     ini aku yang dulu bahkan tak dapat<br>
+     sebelah mata dari pandanganmu<br>
+     (reff) <br>
+     (nikmatilah kejutanku) ini aku yang baru<br>
+     (nikmatilah rasa rindu) tak lagi di kuasamu<br>
+     tak perlu gelitik aku tertawa<br>
+     tak lagi ku lihat ada yang lucu<br>
+     ini aku yang dulu namanya terus<br>
+     jadi sisipan tiap leluconmu<br>
+     (reff 2x) <br>
+     dari dulu kamu tahu, <br>
+     patuh aku demi kamu<br>
+     dulu lalu tinggal dulu, <br>
+     inilah aku yang baru<br>
+     (reff 2x) <br>`,
+  },
+  {
+    Judul: `Tanggal Merah`,
+    Artis: `Tulus`,
+    Album: `Gajah`,
+    Lirik: ` satu hari hanya kamu dan dirimu<br>
+     menikmati tanah yang kau injak<br>
+     memandangi langit yang kau junjung<br>
+     berjalan terus berjalan kaki berjalan<br>
+     walau tanpa tujuan takkan tersesat<br>
+     ini waktumu dengan dirimu ayo bebaslah<br>
+     kikis cepat perlahan semua beban<br>
+     nanti kan datang lagi itu senyuman<br>
+     ini waktumu dengan dirimu berbahagialah<br>
+     berjalan terus berjalan kaki berjalan<br>
+     walau tanpa tujuan takkan tersesat<br>
+     ini waktumu dengan dirimu ayo bebaslah<br>
+     kikis cepat perlahan semua beban<br>
+     nanti kan datang lagi itu senyuman<br>
+     ini waktumu dengan dirimu berbahagialah<br>`,
+  },
+  {
+    Judul: `Manusia Kuat`,
+    Artis: `Tulus`,
+    Album: `Monokrom`,
+    Lirik: ` kau bisa patahkan kakiku<br>
+     tapi tidak mimpi-mimpiku<br>
+     kau bisa lumpuhkan tanganku<br>
+     tapi tidak mimpi-mimpiku<br>
+     kau bisa merebut senyumku<br>
+     tapi sungguh tak akan lama<br>
+     kau bisa merobek hatiku<br>
+     tapi aku tahu obatnya<br>
+     manusia-manusia kuat itu kita<br>
+     jiwa-jiwa yang kuat itu kita<br>
+     manusia-manusia kuat itu kita<br>
+     jiwa-jiwa yang kuat itu kita<br>
+     kau bisa hitamkan putihku<br>
+     kau takkan gelapkan apapun<br>
+     kau bisa runtuhkan jalanku<br>
+     kan ku temukan jalan yang lain<br>
+     manusia-manusia kuat itu kita<br>
+     jiwa-jiwa yang kuat itu kita<br>
+     manusia-manusia kuat itu kita<br>
+     jiwa-jiwa yang kuat itu kita<br>
+     bila bukan kehendakNya <br>
+     tidak satu pun culasmu akan bawa bahaya<br>
+     kau bisa patahkan kakiku, <br>
+     patah tanganku rebut senyumku<br>
+     kau bisa hitamkan putihku, <br>
+     tapi tidak mimpi-mimpiku<br>`,
+  },
+];
