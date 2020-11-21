@@ -1,29 +1,38 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
-	<script src="https://kit.fontawesome.com/3bb98500ae.js" crossorigin="anonymous"></script>
-	<title>Search Music</title>
-</head>
-<body>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/3bb98500ae.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Search Music</title>
+  </head>
+  <body>
+    <header>
+      <div class="search-box">
+        <input
+          class="search-txt"
+          id="input"
+          type="text"
+          name="input"
+          placeholder="Type your Music Title"
+        />
+        <a class="search-btn" href="#" id="btn-search">
+          <i class="fas fa-search"></i>
+        </a>
+      </div>
+    </header>
 
-<header>
-	<div class="search-box">
-		<input class="search-txt" id="input" type="text" name="input" placeholder="Type your Music Title">
-		<a class="search-btn" href="#" id="btn-search">
-			<i class="fas fa-search"></i>
-		</a>
-	</div>
-</header>
+    <main></main>
+    <div id="lyric-container"></div>
 
-<main></main>
-<div id="lyric-container"></div>
-
-<script src="./api.js"></script>
-<script src="./script.js"></script>
-
-</body>
+    <script src="./api.js"></script>
+    <script src="./script.js"></script>
+  </body>
 </html>
