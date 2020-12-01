@@ -1890,3 +1890,5 @@ I can't believe that it's over yeah`,
  Bila kau pergi meninggalkanku`,
   },
 ];
+
+export default data;
