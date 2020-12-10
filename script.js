@@ -1,7 +1,6 @@
-import data from './api.js';
+import data from "./api.js";
 
 window.onload = function () {
-
   const input = document.getElementById("input");
   const btnSearch = document.getElementById("btn-search");
   const main = document.querySelector("main");
@@ -9,26 +8,30 @@ window.onload = function () {
   function searchKeyword() {
     const keyword = input.value;
 
-    filterData(data, keyword).then((results) => {
-      main.innerHTML = "";
+    filterData(data, keyword)
+      .then((results) => {
+        main.innerHTML = "";
 
-      results.forEach((result) => {
-        const itemSong = document.createElement("div");
-        itemSong.setAttribute("class", "lyric-card animate__animated animate__jackInTheBox");
-        itemSong.setAttribute("id", "lyric-card");
+        results.forEach((result) => {
+          const itemSong = document.createElement("div");
+          itemSong.setAttribute(
+            "class",
+            "lyric-card animate__animated animate__fadeInUp"
+          );
+          itemSong.setAttribute("id", "lyric-card");
 
-        itemSong.innerHTML = `
+          itemSong.innerHTML = `
           <h2>${result.Judul}</h2>
           <p class="artist">${result.Artis}</p>
           <p class="album">${result.Album}</p>
           <p class="lyric">${result.Lirik}</p>
         `;
-        main.appendChild(itemSong);
+          main.appendChild(itemSong);
+        });
+      })
+      .catch((message) => {
+        main.innerHTML = message;
       });
-
-    }).catch((message) => {
-      main.innerHTML = message;
-    })
   }
 
   btnSearch.addEventListener("click", searchKeyword);
@@ -38,10 +41,11 @@ window.onload = function () {
 function filterData(data, keyword) {
   return new Promise((resolve, reject) => {
     let result = ["1"];
-    result = data.filter((e) => 
-      bruteForce(e.Judul.toUpperCase(), keyword.toUpperCase()) ||
-      bruteForce(e.Album.toUpperCase(), keyword.toUpperCase()) ||
-      bruteForce(e.Lirik.toUpperCase(), keyword.toUpperCase())
+    result = data.filter(
+      (e) =>
+        bruteForce(e.Judul.toUpperCase(), keyword.toUpperCase()) ||
+        bruteForce(e.Album.toUpperCase(), keyword.toUpperCase()) ||
+        bruteForce(e.Lirik.toUpperCase(), keyword.toUpperCase())
     );
 
     if (result.length) {
@@ -72,4 +76,3 @@ function bruteForce(text, keyword) {
   }
   return false;
 }
-
