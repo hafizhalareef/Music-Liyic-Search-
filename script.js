@@ -45,7 +45,8 @@ function filterData(data, keyword) {
       (e) =>
         bruteForce(e.Judul.toUpperCase(), keyword.toUpperCase()) ||
         bruteForce(e.Album.toUpperCase(), keyword.toUpperCase()) ||
-        bruteForce(e.Lirik.toUpperCase(), keyword.toUpperCase())
+        bruteForce(e.Lirik.toUpperCase(), keyword.toUpperCase()) ||
+        bruteForce(e.Artis.toUpperCase(), keyword.toUpperCase())
     );
 
     if (result.length) {
